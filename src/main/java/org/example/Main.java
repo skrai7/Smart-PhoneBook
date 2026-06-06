@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/phonebook";
         String user = "root";
-        String password = "sumitiitian12"; // <-- Yahan apna password zaroor daalna
+        String password = "sumitiitian12"; 
 
         Scanner scanner = new Scanner(System.in);
 
@@ -31,7 +31,7 @@ public class Main {
                 System.out.println("4. Delete Contact ");
                 System.out.println("5. Update Contact(Edit)");
                 System.out.println("6. Exit ");
-                System.out.print("Apni choice batao (1-6): ");
+                System.out.print("Select Your Choice (1-6): ");
 
                 int choice = scanner.nextInt();
                 scanner.nextLine(); // Enter key ko consume karne ke liye
@@ -159,7 +159,7 @@ public class Main {
             scanner.close();
 
         } catch (Exception e) {
-            System.out.println("Bhai error aa gaya:");
+            System.out.println("There is an error:");
             e.printStackTrace();
         }
     }

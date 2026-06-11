@@ -55,7 +55,7 @@ public class Main {
                         insertStmt.setString(4, address);
 
                         insertStmt.executeUpdate();
-                        System.out.println("✅ " + name + " ka contact save ho gaya!\n");
+                        System.out.println("✅ " + name + " contact saved!\n");
                         break;
 
                     case 2: // VIEW ALL

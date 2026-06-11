@@ -9,9 +9,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/phonebook";
-        String user = "root";
-        String password = "********"; 
+       private static final String url = "jdbc:mysql://localhost:3306/phonebook";
+       private static final String user = "root";
+       private static final String password = "********"; 
 
         Scanner scanner = new Scanner(System.in);
 
